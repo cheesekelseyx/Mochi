@@ -1,0 +1,136 @@
+{
+  "events": [
+    {
+      "id": "quiet_room",
+      "weight": 34,
+      "messages": []
+    },
+    {
+      "id": "bird_visit",
+      "weight": 11,
+      "scene": "bird",
+      "messages": [
+        "A small bird pauses nearby. Mochi watches without hurrying it.",
+        "A bird tilts its head at the window. Mochi quietly tilts too."
+      ]
+    },
+    {
+      "id": "mouse_visit",
+      "weight": 8,
+      "scene": "mouse",
+      "messages": [
+        "A tiny mouse peeks in. Mochi gives it plenty of room.",
+        "Soft paws pass by soft paws. The little visitor continues on its way."
+      ]
+    },
+    {
+      "id": "butterfly_visit",
+      "weight": 9,
+      "scene": "butterfly",
+      "conditions": {
+        "seasons": ["spring", "summer"]
+      },
+      "messages": [
+        "A butterfly drifts past. Mochi follows it with wide, patient eyes.",
+        "A small blue wing crosses the light, then disappears into the day."
+      ]
+    },
+    {
+      "id": "autumn_leaf",
+      "weight": 10,
+      "scene": "leaf",
+      "conditions": {
+        "seasons": ["autumn"]
+      },
+      "messages": [
+        "A leaf turns slowly outside. Mochi lets it keep travelling.",
+        "One copper leaf taps the window, then the breeze carries it on."
+      ]
+    },
+    {
+      "id": "rain_window",
+      "weight": 13,
+      "scene": "rain",
+      "conditions": {
+        "weather": ["rain"]
+      },
+      "messages": [
+        "Rain traces little paths down the window. Mochi watches one reach the bottom.",
+        "The rain is soft enough to listen to. You and Mochi stay a moment."
+      ]
+    },
+    {
+      "id": "snow_window",
+      "weight": 13,
+      "scene": "snow",
+      "conditions": {
+        "weather": ["snow"]
+      },
+      "messages": [
+        "Snow gathers quietly beyond the glass. Mochi's nose almost touches it.",
+        "A few snowflakes turn in the air. Mochi watches each one choose a place."
+      ]
+    },
+    {
+      "id": "spring_flower",
+      "weight": 7,
+      "scene": "flower",
+      "conditions": {
+        "seasons": ["spring"]
+      },
+      "messages": [
+        "A small flower has opened near the step. Mochi admires it where it grows."
+      ]
+    },
+    {
+      "id": "loose_feather",
+      "weight": 6,
+      "scene": "feather",
+      "messages": [
+        "A loose feather rests by the path. Mochi looks, then leaves it for the wind."
+      ]
+    },
+    {
+      "id": "box_cat",
+      "weight": 8,
+      "scene": "box_cat",
+      "messages": [
+        "The box was empty. Now it is exactly full of Mochi.",
+        "Mochi has inspected the box and found no reason to leave it."
+      ]
+    },
+    {
+      "id": "bread_cat",
+      "weight": 8,
+      "scene": "bread_cat",
+      "messages": [
+        "Mochi tucks every paw away and becomes a very quiet loaf.",
+        "For now, Mochi has chosen the shape of warm bread."
+      ]
+    },
+    {
+      "id": "short_ribbon",
+      "weight": 5,
+      "scene": "ribbon",
+      "messages": [
+        "Mochi finds a short ribbon already loose on the floor and tucks it on the shelf."
+      ],
+      "treasure": {
+        "symbol": "🎀",
+        "name": "short ribbon"
+      }
+    },
+    {
+      "id": "blue_button",
+      "weight": 4,
+      "scene": "button",
+      "messages": [
+        "A blue button has no coat to return to. Mochi carries it carefully home."
+      ],
+      "treasure": {
+        "symbol": "◉",
+        "name": "blue button"
+      }
+    }
+  ]
+}
